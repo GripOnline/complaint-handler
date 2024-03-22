@@ -1,0 +1,16 @@
+{
+	"name": "grip/complaint-handler",
+	"type": "project",
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://composer.hosting.grip.nl/"
+		}
+	],
+	"require": {
+		"grip/pear-pear": "*",
+		"grip/pear-log": "*",
+        "grip/pear-mail_mime": "*",
+        "grip/pear-mail_mimedecode": "*"
+	}
+}
